@@ -1,0 +1,28 @@
+platform :ios, '10.2'
+use_frameworks!
+
+plugin 'cocoapods-acknowledgements'
+
+def common_pods
+  pod 'R.swift', '~> 5.1'
+end
+
+target 'FiveCalls' do
+  common_pods
+  pod 'Auth0', '~> 1.19', inhibit_warnings: true
+  pod 'Down', '~> 0.9'
+  pod 'CPDAcknowledgements', git: 'https://github.com/CocoaPods/CPDAcknowledgements.git'
+  pod 'DZNEmptyDataSet', git: 'https://github.com/subdigital/DZNEmptyDataSet'
+  pod 'OneSignal', '~> 2.5'
+  pod 'PromiseKit', '~> 6.0'
+  pod 'AppCenter'
+end
+
+target 'NotificationsService' do
+    pod 'OneSignal', '~> 2.5'
+end
+
+target 'FiveCallsTests' do
+  common_pods
+end
+

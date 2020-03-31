@@ -1,0 +1,80 @@
+PODS:
+  - AppCenter (2.5.3):
+    - AppCenter/Analytics (= 2.5.3)
+    - AppCenter/Crashes (= 2.5.3)
+  - AppCenter/Analytics (2.5.3):
+    - AppCenter/Core
+  - AppCenter/Core (2.5.3)
+  - AppCenter/Crashes (2.5.3):
+    - AppCenter/Core
+  - Auth0 (1.19.3):
+    - SimpleKeychain
+  - CPDAcknowledgements (1.0.0)
+  - Down (0.9.0)
+  - DZNEmptyDataSet (1.8.1)
+  - OneSignal (2.6.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
+  - SimpleKeychain (0.9.0)
+
+DEPENDENCIES:
+  - AppCenter
+  - Auth0 (~> 1.19)
+  - CPDAcknowledgements (from `https://github.com/CocoaPods/CPDAcknowledgements.git`)
+  - Down (~> 0.9)
+  - DZNEmptyDataSet (from `https://github.com/subdigital/DZNEmptyDataSet`)
+  - OneSignal (~> 2.5)
+  - PromiseKit (~> 6.0)
+  - R.swift (~> 5.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OneSignal
+  trunk:
+    - AppCenter
+    - Auth0
+    - Down
+    - PromiseKit
+    - R.swift
+    - R.swift.Library
+    - SimpleKeychain
+
+EXTERNAL SOURCES:
+  CPDAcknowledgements:
+    :git: https://github.com/CocoaPods/CPDAcknowledgements.git
+  DZNEmptyDataSet:
+    :git: https://github.com/subdigital/DZNEmptyDataSet
+
+CHECKOUT OPTIONS:
+  CPDAcknowledgements:
+    :commit: 2f289a19c3ec41f835a9629fdbea4a89033f61a1
+    :git: https://github.com/CocoaPods/CPDAcknowledgements.git
+  DZNEmptyDataSet:
+    :commit: d09b7c440cd2a13710fef74dc21bdb5f980fa109
+    :git: https://github.com/subdigital/DZNEmptyDataSet
+
+SPEC CHECKSUMS:
+  AppCenter: 765ff38c4d360fc5ec61b61a8be24d74cd6d4d83
+  Auth0: 195ea089de471c72bf95eb5320ff86c224debf3c
+  CPDAcknowledgements: 6e15e71849ba4ad5e8a17a0bb9d20938ad23bac8
+  Down: 1cdbca4963b542d0ef34ebb3e10ff48382bdf761
+  DZNEmptyDataSet: b94434220f87d9dda46660eb4f07a424778e93b4
+  OneSignal: 4786d2ed24ea315ceff66d83cbd418af0cc94311
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
+  SimpleKeychain: 3be49072fd2d82de8fa83d847ef1e548622f8fc5
+
+PODFILE CHECKSUM: 4e49f03e144ea1ec7e3073f09420f1e526d14723
+
+COCOAPODS: 1.8.4
